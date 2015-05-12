@@ -6,9 +6,14 @@
 <jsp:include page="includes/head.jsp">
 	<jsp:param value="NUEVA EMPRESA" name="titulo" />
 </jsp:include>
-<jsp:include page="includes/nav.jsp">
+<jsp:include page="includes/navconta.jsp">
 	<jsp:param value="false" name="esNuevo" />
 </jsp:include>
+
+<script>$(document).ready(function() {
+        $('#actempresa').DataTable();
+    } );</script>
+    
 
 <%
 	//recoger atributo empresa
@@ -35,30 +40,46 @@
 	}
 %>
 
-<div class="col-lg-6">
+<div class="col-lg-10">
 	<form
 		action="<%=request.getContextPath() + "/"
 					+ Constantes.CONTROLLER_ACTEMPRESA %>"
 		method="post">
-
-		<div class="form-group">
-			<label>Cod.Empresa</label> <input type="text" name="id" 
-				value="<%=e.getIdEmpresa()%>" class="form-control">
-		</div>
-		<div class="form-group">
-			<label>Empresa</label>			
-			<input type="text" name="empresa" value="<%=e.getEmpresa()%>"
-				class="form-control">			
-		</div>
-
-		<div class="form-group">
-			<label>Año</label> <input type="text" name="anio"
-				value="<%=e.getAnio()%>" class="form-control">
-		</div>
-
+		<table id="actempresa" class="display" cellspacing="0" width="100%">
+			<thead>
+	            <tr>
+	                <th>Cod. Empresa</th>
+	                <th>Empresa</th>
+	                <th>Año</th>
+	            </tr>
+	        </thead>
+	        <tfoot>
+	            <tr>
+	                <th>Cod. Empresa</th>
+	                <th>Empresa</th>
+	                <th>Año</th>
+	                <th>Selección</th>
+	            </tr>
+	        </tfoot>
+	        <tbody>
+				<tr>
+					<td>
+						<input type="text" name="id" value="<%=e.getIdEmpresa()%>" class="form-control">
+					</td>
+					<td>			
+						<input type="text" name="empresa" value="<%=e.getEmpresa()%>" class="form-control">		
+					</td>
+					<td>
+						<input type="text" name="anio" value="<%=e.getAnio()%>" class="form-control">
+					</td>
+					<td>
+						<input type="checkbox" name="sele" class="form-control">
+					</td>		
+	        </tbody>
+		</table>
 		<input type="hidden" name="<%=Constantes.OP_KEY%>" value="<%=op%>">
-		<input type="submit" class="btn btn-outline btn-primary"
-			value="Guardar">
+		<input type="submit" class="btn btn-outline btn-primary botonbajo"
+				value="Aceptar">
 
 	</form>
 </div>
