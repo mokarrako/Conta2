@@ -34,4 +34,14 @@
     <servlet-name>CuentaServlet</servlet-name>
     <url-pattern>/CuentaServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConceptosContablesServlet</display-name>
+    <servlet-name>ConceptosContablesServlet</servlet-name>
+    <servlet-class>Contabilidad.Controller.ConceptosContablesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConceptosContablesServlet</servlet-name>
+    <url-pattern>/ConceptosContablesServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
