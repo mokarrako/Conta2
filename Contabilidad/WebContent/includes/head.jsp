@@ -36,10 +36,18 @@
 	
      <!-- Custom CSS -->
     <link href="css/sb-admin-2.css" rel="stylesheet">
-
-    <!-- DataTable 
+    
+    <!-- MetisMenu CSS -->
+    <link href="js/plugins/metisMenu/dist/metisMenu.css" rel="stylesheet">
+    
+    <!-- Datatatble CSS -->
     <link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
--->
+    
+    
+     <!-- Propio CSS -->
+    <link href="css/custompropio.css" rel="stylesheet">
+
+  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,3 +66,4 @@
 <body>
 
     <div id="wrapper">
+    	
