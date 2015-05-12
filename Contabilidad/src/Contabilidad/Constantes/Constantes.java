@@ -23,6 +23,7 @@ public class Constantes {
 	public static final String CONTROLLER_ACTEMPRESA = "ActEmpresaServlet";
 	public static final String CONTROLLER_IVA = "IvaServlet";	
 	public static final String CONTROLLER_CUENTA = "CuentaServlet";
+	public static final String CONTROLLER_CONCEPCONTAB = "ConceptosContablesServlet";
 	
 	// JSPs
 	public static final String JSP_ACTEMP = "ActivarEmpresa.jsp";
@@ -43,5 +44,8 @@ public class Constantes {
 	
 	public static final String ATT_CUENTAS = "cuentas";
 	public static final String ATT_CUENTA = "cuenta";
+	
+	public static final String ATT_CONCEPTOSCONTABLES = "conceptoscontables";
+	public static final String ATT_CONCEPTOS = "conceptos";
 	
 }
