@@ -8,7 +8,7 @@
 <jsp:include page="includes/head.jsp">
 	<jsp:param value="EMPRESAS ACTIVAS" name="titulo" />
 </jsp:include>
-<jsp:include page="includes/nav.jsp">
+<jsp:include page="includes/navconta.jsp">
 	<jsp:param value="false" name="esNuevo" />
 </jsp:include>
 
