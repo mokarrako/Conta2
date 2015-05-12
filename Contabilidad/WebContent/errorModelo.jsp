@@ -4,10 +4,15 @@
 <%@page import="Contabilidad.Bean.ActivarEmpresa"%>
 <%@page import="Contabilidad.Constantes.Constantes"%>
 <%@page import="java.util.ArrayList"%>
+<%@page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
 
 <jsp:include page="includes/head.jsp">
 	<jsp:param value="Error" name="titulo" />
+</jsp:include>
+<jsp:include page="includes/navconta.jsp">
+	<jsp:param value="false" name="esNuevo" />
 </jsp:include>
 
 
@@ -15,7 +20,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">Error 404</div>
 		<div class="panel-body">
-			<p>Vaya, parece que la p·gina que buscas no existe. Revisa la URL</p>
+			<p>Vaya, parece que la p√°gina que buscas no existe. Revisa la URL</p>
 			<img alt="error 404" src="images/error.jpg" id="error">
 		</div>
 		<!-- /.panel-body -->

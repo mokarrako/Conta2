@@ -1,4 +1,4 @@
-<%@page import="Contabilidad.Bean.Cuenta"%>
+<%@page import="Contabilidad.Bean.ConceptosContables"%>
 <%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="Contabilidad.Constantes.Constantes"%>
@@ -6,15 +6,14 @@
 	pageEncoding="ISO-8859-1"%>
 
 <jsp:include page="includes/head.jsp">
-	<jsp:param value="EMPRESAS ACTIVAS" name="titulo" />
+	<jsp:param value="CONCEPTOS CONTABLES" name="titulo" />
 </jsp:include>
-<jsp:include page="includes/nav.jsp">
+<jsp:include page="includes/navconta.jsp">
 	<jsp:param value="false" name="esNuevo" />
 </jsp:include>
-
 <%	
-	ArrayList<Cuenta> vCuenta = (ArrayList<Cuenta>) request.getAttribute(Constantes.ATT_CUENTA);
-	int tamanio = vCuenta.size();
+	ArrayList<ConceptosContables> vConceptosContables = (ArrayList<ConceptosContables>) request.getAttribute(Constantes.ATT_CONCEPTOS);
+	int tamanio = vConceptosContables.size();
 %>
 
 
@@ -25,14 +24,14 @@
 		<div class="row">
 		<div class="col-lg-12 ">
 			<h4 class="resultados">
-				Numero de registros encontrados:<%= vCuenta.size() %></h4>
+				Numero de registros encontrados:<%= vConceptosContables.size() %></h4>
 		</div>
 		<%
-			if (vCuenta.isEmpty()) {
+			if (vConceptosContables.isEmpty()) {
 		%>
 		<h2>
-			No existe niguna cuenta, por favor cree una cuenta <a
-				href="<%=Constantes.JSP_DEFPLANCONT%>" title="nuevo registro">nueva</a>
+			No existe nigun concepto, por favor cree uno <a
+				href="<%= Constantes.JSP_CONCEPTOSFORM %>" title="nuevo registro">nuevo</a>
 		</h2>
 		<%
 			} else {
@@ -42,30 +41,28 @@
 			<thead>
 				<tr>
 					<th></th>
-					<th>Cuenta</th>
+					<th>Nº</th>
 					<th>Descripcion</th>
-					<th>Saldo</th>					
 				</tr>
 			</thead>
 
 			<tbody>
 				<%
-					Cuenta c = null;
-						for (int icuenta = 0; icuenta < vCuenta.size(); icuenta++) {
-							c = vCuenta.get(icuenta);
+				ConceptosContables c = null;
+						for (int iconcept = 0; iconcept < vConceptosContables.size(); iconcept++) {
+							c = vConceptosContables.get(iconcept);
 				%>
 
 				<tr>
 					<td>
 						<a href="<%= Constantes.CONTROLLER_CUENTA + "?id="
-							+ c.getIdCuenta() %>">
+							+ c.getIdConcepCont() %>">
 							<span class="glyphicon glyphicon-eye-open"></span>
 					</a></td>
 
-					<td><%= c.getIdCuenta() %></td>
-					<td class="desaparecer"><%= c.getDescripcion() %></td>
-					<td><%=c.getSaldo() %></td>
-					
+					<td><%= c.getIdConcepCont() %></td>
+					<td class="desaparecer"><%= c.getDescConcepCont() %></td>
+										
 				</tr>
 				<%
 					}

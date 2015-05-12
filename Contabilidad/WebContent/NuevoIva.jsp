@@ -6,7 +6,7 @@
 <jsp:include page="includes/head.jsp">
 	<jsp:param value="NUEVO IVA" name="titulo" />
 </jsp:include>
-<jsp:include page="includes/nav.jsp">
+<jsp:include page="includes/navconta.jsp">
 	<jsp:param value="false" name="esNuevo" />
 </jsp:include>
 
@@ -30,33 +30,34 @@
 	
 %>
 
-<div class="col-lg-6">
+<div class="col-lg-10">
 	<form
 		action="<%= request.getContextPath() + "/"
 					+ Constantes.CONTROLLER_IVA %>"
 		method="post">
 
 
-		<div class="form-group">
-			<label>Cod.Iva</label> <input type="text" name="id" readonly
+		<div class="col-lg-2 form-group">
+			<label for="id">Cod.Iva</label> <input type="text" name="id" readonly
 				value="<%= i.getIdIva() %>" class="form-control">
 		</div>
-		<div class="form-group">
-			<label>Iva</label>			
-			<input type="text" name=iva value="<%= i.getIva() %>"
+		<div class="col-lg-2 form-group">
+			<label for="iva">Iva</label>			
+			<input type="text" name="iva" id="iva" value="<%= i.getIva() %>"
 				class="form-control">			
 		</div>
 
-		<div class="form-group">
-			<label>Descripcion</label> <input type="text" name="descripcion"
+		<div class="col-lg-6 form-group">
+			<label for="descripcion">Descripcion</label> <input type="text" id="descripcion" name="descripcion"
 				value="<%= i.getDescripcion() %>" class="form-control">
 		</div>
 
 
-
-		<input type="hidden" name="<%= Constantes.OP_KEY %>" value="<%= op %>">
-		<input type="submit" class="btn btn-outline btn-primary"
-			value="Guardar">
+		<div class="col-lg-1 form-group">
+			<input type="hidden" name="<%= Constantes.OP_KEY %>" value="<%= op %>">
+			<input type="submit" class="btn btn-outline btn-primary botonbajo"
+				value="Guardar">
+		</div>
 
 	</form>
 </div>

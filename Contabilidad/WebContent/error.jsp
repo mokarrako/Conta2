@@ -4,9 +4,14 @@
 <%@page import="Contabilidad.Bean.ActivarEmpresa"%>
 <%@page import="Contabilidad.Constantes.Constantes"%>
 <%@page import="java.util.ArrayList"%>
+<%@page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
 <jsp:include page="includes/head.jsp">
 	<jsp:param value="Error" name="titulo" />
+</jsp:include>
+<jsp:include page="includes/navconta.jsp">
+	<jsp:param value="false" name="esNuevo" />
 </jsp:include>
 
 
