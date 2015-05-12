@@ -1,14 +1,16 @@
 package Contabilidad.Modelo.DAO;
 
 import java.sql.Connection;
-
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
+import Contabilidad.Bean.ConceptosContables;
 import Contabilidad.Modelo.Interfaces.IActivarEmpresaDAO;
+import Contabilidad.Modelo.Interfaces.IConceptosContablesDAO;
 import Contabilidad.Modelo.Interfaces.ICuentaDAO;
 import Contabilidad.Modelo.Interfaces.IIVADAO;
 import Contabilidad.Modelo.MySql.ActivarEmpresaMySqlDAO;
+import Contabilidad.Modelo.MySql.ConceptosContablesMySqlDAO;
 import Contabilidad.Modelo.MySql.CuentaMySqlDAO;
 import Contabilidad.Modelo.MySql.IVAMySqlDAO;
 
@@ -81,5 +83,10 @@ public class MySqlDAOFactory extends DAOFactory {
 	@Override
 	public ICuentaDAO getCuentaDAO() {
 		return new CuentaMySqlDAO();
+	}
+
+	@Override
+	public IConceptosContablesDAO getConceptosContablesDAO() {
+		return new ConceptosContablesMySqlDAO(); 
 	}
 }
