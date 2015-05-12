@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Contabilidad</a>
+                <a class="navbar-brand" href="index.jsp">Contabilidad</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -255,19 +255,19 @@
                                     		<a href="<%= Constantes.CONTROLLER_ACTEMPRESA %>">Actibar empresa</a>
                                         </li>
                                         <li>
-                                    		<a href="EditarEmpresa.jsp">Editar empresa activa</a>
+                                    		<a href="<%= Constantes.JSP_EDITEMP %>">Editar empresa activa</a>
                                         </li>
                                         <li>
-                                    		<a href="<%= Constantes.CONTROLLER_CUENTA %>">Definicion plan contable</a>
+                                    		<a href="<%= Constantes.JSP_DEFPLANCONT %>">Definicion plan contable</a>
                                         </li>
                                         <li>
                                     		<a href="<%= Constantes.JSP_CONCEPTOSCONT %>">Conceptos contables</a>
                                         </li>
                                         <li>
-                                    		<a href="flot.html">Parametros de asientos automaticos</a>
+                                    		<a href="EditarEmpresa.jsp">Parametros de asientos automaticos</a>
                                         </li>
                                         <li>
-                                    		<a href="flot.html">Inventarios</a>
+                                    		<a href="EditarEmpresa.jsp">Inventarios</a>
                                         </li>
                                     </ol>
                                 </li>

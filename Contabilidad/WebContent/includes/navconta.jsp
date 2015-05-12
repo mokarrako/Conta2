@@ -23,7 +23,7 @@
 		                            <a href="#"><i class="glyphicon glyphicon-folder-close"></i> Ficheros<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
-			                        		<a href="ActEmpresaForm.jsp <%//= Constantes.CONTROLLER_ACTEMPRESA %>">Actibar empresa</a>
+			                        		<a href=" <%= Constantes.CONTROLLER_ACTEMPRESA %>">Actibar empresa</a>
 			                            </li>
 			                            <li>
 			                        		<a href="EditarEmpresa.jsp">Editar empresa activa</a>
