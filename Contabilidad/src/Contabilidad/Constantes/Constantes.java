@@ -32,7 +32,7 @@ public class Constantes {
 	public static final String JSP_NUEVOIVA = "NuevoIva.jsp";
 	public static final String JSP_DEFPLANCONT = "DefPlanContable.jsp";
 	public static final String JSP_CUENTAFORM = "CuentaForm.jsp";
-	public static final String JSP_CONCEPTOSCONT = "ConceptosContables.jsp";
+	public static final String JSP_CONCEPTOSCONT = "ConceptConta.jsp";
 	public static final String JSP_CONCEPTOSFORM = "ConceptosForm.jsp";
 
 	// Atrinuttos
