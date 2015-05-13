@@ -1415,6 +1415,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-top:10px; /*añadido para dejar margen en el contenido con respecto a la cabecera */
 }
 .row {
   margin-right: -15px;
@@ -3870,7 +3871,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  /* min-height: 50px; cambiado para cuadrar la cabecera */
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -3948,7 +3949,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-static-top {
   z-index: 1000;
-  border-width: 0 0 1px;
+  border-width: 0 0 0px; /*cambiado el bode bottom para cuadrar la cabecera*/
 }
 @media (min-width: 768px) {
   .navbar-static-top {
@@ -4201,7 +4202,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #fff;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {

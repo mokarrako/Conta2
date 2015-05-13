@@ -1,0 +1,13 @@
+
+th, td {
+	text-align:center;
+	padding:2px;
+}
+
+tr {
+	margin:3px 0;
+}
+
+.oscurodos {
+	color:#2C9CFD !important;
+}
