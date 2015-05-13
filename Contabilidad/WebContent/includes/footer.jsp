@@ -20,6 +20,8 @@
     <script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
     <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
     
+    <!-- MetisMenu JavaScript -->
+    <script src="js/metisMenu.js"></script>
     
     <!-- Custom JavaScript for me-->
     <script src="js/main.js"></script>

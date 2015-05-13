@@ -37,6 +37,9 @@
      <!-- Custom CSS -->
     <link href="css/sb-admin-2.css" rel="stylesheet">
     
+     <!-- Custom Propio CSS -->
+    <link href="css/custompropio.css" rel="stylesheet">
+    
     <!-- MetisMenu CSS -->
     <link href="js/plugins/metisMenu/dist/metisMenu.css" rel="stylesheet">
     
