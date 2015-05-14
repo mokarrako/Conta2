@@ -9,5 +9,23 @@ tr {
 }
 
 .oscurodos {
-	color:#2C9CFD !important;
+	color:#3783c8!important;
+}
+
+.especial .cincuenta, .especial label {
+	width:50%;
+	display:inline-block;
+	margin-bottom:6px;
+}
+
+.botonbajo {
+	margin-top:25px;
+}
+
+#idEmpresa_filter label {
+	display:none;
+}
+
+.vacio {
+	height:20px;
 }
