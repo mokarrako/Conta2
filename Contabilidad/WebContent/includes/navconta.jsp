@@ -35,16 +35,30 @@
 			                        		<a href="<%= Constantes.JSP_CONCEPTOSCONT %>">Conceptos contables</a>
 			                            </li>
 			                            <li>
-			                        		<a href="flot.html">Parametros de asientos automaticos</a>
+			                        		<a href="ParamAsienAuto.jsp">Parametros de asientos automaticos</a>
 			                            </li>
 			                            <li>
-			                        		<a href="flot.html">Inventarios</a>
+			                        		<a href="Inven.html">Inventarios<span class="fa arrow"></span></a>
+			                        		<ul class="nav nav-third-level">
+					                            <li>
+				                            		<a href="flot.html">Mantenimiento de inventario</a>
+				                                </li>
+				                                <li>
+				                            		<a href="flot.html">Listado de inventario</a>
+				                                </li>
+				                                <li>
+				                            		<a href="flot.html">Copiar inventario de otra empresa</a>
+				                                </li>
+				                                <li>
+				                            		<a href="flot.html">Actualizar inventario para asiento de amortización</a>
+				                                </li>
+				                            </ul>
 			                            </li>
 			                            <!-- /.nav-second-level -->
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-list-alt"></i> Diario<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-list"></i> Diario<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Asientos</a>
@@ -152,7 +166,15 @@
 			                           		<a href="flot.html">Borrar contabilidad</a>
 			                            </li>
 			                            <li>
-			                           		<a href="flot.html">Mantenimientos</a>
+			                           		<a href="flot.html">Mantenimientos<span class="fa arrow"></span></a>
+			                        		<ul class="nav nav-third-level">
+					                            <li>
+				                            		<a href="flot.html">Mantenimiento de parámetros para infórme balance de situación</a>
+				                                </li>
+				                                <li>
+				                            		<a href="flot.html">Mantenimiento de parámetros para informe de pérdidas y ganacias</a>
+				                                </li>
+				                            </ul>
 			                            </li>
 			                            <li>
 			                           		<a href="flot.html">Configuracion de impresora</a>

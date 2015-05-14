@@ -1,13 +1,19 @@
+					</div>
+					<!-- /.col-lg-12 -->
+				</div>   
+	            <!-- /.row -->
+	        </div>
+	        <!-- /.container-fluid-->
+	    </div>
+	        <!-- /#page-wrapper --> 
+	 </div>
+	    <!-- /#wrapper -->
 
-	</div>   
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
- 
- </div>
-    <!-- /#wrapper -->
+   
 
-    <!-- jQuery Version 1.11.0 -->
+</body>
+
+ <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -25,8 +31,6 @@
     
     <!-- Custom JavaScript for me-->
     <script src="js/main.js"></script>
-
-</body>
 
 </html>
 

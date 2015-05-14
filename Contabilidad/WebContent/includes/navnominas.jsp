@@ -51,7 +51,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-list-alt"></i> Empresa<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-home"></i> Empresa<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Activar empresa</a>
@@ -69,7 +69,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-th-list"></i> Trabajador<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-user"></i> Trabajador<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Altas y modificación de fichas de la empresa en uso</a>
@@ -81,7 +81,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-star"></i> Salarios<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-eur"></i> Salarios<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Incidencias</a>
@@ -117,7 +117,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-font"></i> Utilidades<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-asterisk"></i> Utilidades<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Borrado de nóminas/incidencias</a>
@@ -150,7 +150,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-wrench"></i> Impresos S.Social<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-th-large"></i> Impresos S.Social<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 			                           		<a href="flot.html">Sistema R.E.D.</a>
@@ -162,7 +162,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-wrench"></i> Impresos Hacienda<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-th"></i> Impresos Hacienda<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 			                           		<a href="flot.html">Modelo 110</a>

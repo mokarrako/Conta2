@@ -151,7 +151,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-th-list"></i> Facturas clientes<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-file"></i> Facturas clientes<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 		                          		<li>
 		                            		<a href="flot.html">Facturas</a>
@@ -211,7 +211,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-star"></i> Pedidos/Facturas proveedor<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-briefcase"></i> Pedidos/Facturas proveedor<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Pedidos a proveedor</a>
@@ -262,7 +262,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-font"></i> Fabricación<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-cog"></i> Fabricación<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 		                            		<a href="flot.html">Ficheros<span class="fa arrow"></span></a>
@@ -300,7 +300,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-wrench"></i> Utilidades<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-asterisk"></i> Utilidades<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 			                           		<a href="flot.html">Ordenacion de ficheros y cópias de seguridad</a>
@@ -318,7 +318,7 @@
 			                         </ul>
 		                        </li>
 		                        <li>
-		                            <a href="#"><i class="glyphicon glyphicon-wrench"></i> Consultas<span class="fa arrow"></span></a>
+		                            <a href="#"><i class="glyphicon glyphicon-search"></i> Consultas<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
 			                           		<a href="flot.html">Consultas de clientes</a>
