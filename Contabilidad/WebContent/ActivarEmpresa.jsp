@@ -39,7 +39,7 @@
 		<%
 			} else {
 		%>
-		<table id="idEmpresa" class="table table-bordered table-hover"
+		<table id="idEmpresa" class="table table-bordered table-hover data"
 			width="100%" cellspacing="0">
 			<thead>
 				<tr>

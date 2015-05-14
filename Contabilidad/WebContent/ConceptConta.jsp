@@ -41,10 +41,40 @@
 %>
 
 
-<div class="col-lg-10">
+
 	<form action="<%= request.getContextPath() + "/"
 					+ Constantes.CONTROLLER_CONCEPCONTAB %>"
 		method="post"> 
+		
+		<table class="table table-bordered table-hover data"
+			width="100%" cellspacing="0">
+			<thead>
+				<tr>
+					<th>
+						<label for="numconcep">Número</label>
+					</th>
+					<th>
+						<label for="descripcion">Descripcion</label> 
+					</th>
+					<th>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<input type="text" name="id" readonly value="<%= vConceptosContables.getIdConcepCont() %>" class="form-control">
+					</td>
+					<td>
+						<input type="text" id="descripcion" name="descripcion" value="<%= vConceptosContables.getDescConcepCont() %>" class="form-control">						
+					</td>
+					<td>
+						<input type="hidden" name="<%= Constantes.OP_KEY %>" value="<%= op %>">	
+						<input type="submit" class="btn btn-outline btn-primary" value="Guardar">					
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
 		<div class="col-lg-2 form-group">
 			<label for="numconcep">Número</label> <input type="text" name="id" readonly
@@ -71,7 +101,6 @@
 		</div>
 		
 	</form>
-</div>
 
 
 <%@include file="includes/footer.jsp"%>

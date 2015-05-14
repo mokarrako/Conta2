@@ -23,11 +23,11 @@
 	<thead>
 		<tr>
 			<th><label for="id">Cod.Empresa</label></th>
-			<th colspan="3"><label for="empresa">Empresa</label></th>
+			<th colspan="2"><label for="empresa">Empresa</label></th>
 			<th><label for="ano">Año</label></th>
 			<th><label for="ancho">Ancho</label></th>
 			<th><label for="cuenta">Cuenta</label></th>
-			<th><label for="fehchaini">Fecha inicio</label></th>
+			<th><label for="fechaini">Fecha inicio</label></th>
 			<th><label for="fechafin">Fecha fin</label></th>
 		</tr>
 	</thead>
@@ -36,7 +36,7 @@
 			<td>
 				<input type="text" name="id" id="id" readonly value="" class="form-control">
 			</td>
-			<td colspan="3">
+			<td colspan="2">
 				<input type="text" name="empresa" id="empresa" value="" class="form-control">
 			</td>
 			<td>
@@ -56,99 +56,129 @@
 			</td>
 		</tr>
 		<tr>
+			<td colspan="8" class="vacio"></td>
+		</tr>
+		<tr>
 			<td><label>Tipo</label></td>
 			<td><label><a href="<%= Constantes.JSP_NUEVOIVA %>">%IVA</a></label></td>
-			<td colspan="3"><label>Cuenta</label></td>
+			<td colspan="2"><label>Cuenta</label></td>
 			<td colspan="4"><label>Descripción</label></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Normal</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Reducido</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Superreducido</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Exento</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Rec.Equiv.Normal</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Rev.Equiv.Reucido</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><label>Rev.Equiv.Superreducido</label></td>
 			<td rowspan="2"><input type="text" name="normal" value="" class="form-control"></td>
-			<td colspan="2"><label>Soportado</label></td>
+			<td><label>Soportado</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
 		<tr>
-			<td colspan="2"><label>Repercutido</label></td>
+			<td><label>Repercutido</label></td>
 			<td><input type="text" name="tipo" value="" class="form-control"></td>
 			<td colspan="4"><input type="text" name="descipcion" value="" class="form-control"></td>
 		</tr>
+		<tr>
+			<td colspan="8" class="vacio"></td>
+		</tr>
+		<tr>
+			<td><label for="recEquiClien">Rec. Equivalencia Clientes</label></td>
+			<td><label for="recEquiProve">Rec. Equivalencia Proveedores</label></td>
+			<td><label for="venCli">Vencimientos clientes</label></td>
+			<td><label for="venPro">Vencimientos proveedores</label></td>
+			<td><label for="codAux">Código aux.</label></td>
+			<td><label for="docFac">Documentos en facturas</label></td>
+			<td><label for="denom">Denominación 60</label></td>
+			<td><label for="venCli">Pantalla 1024 (1), 1280 (2)</label></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="recEquiClien" id="recEquiClien"></td>
+			<td><input type="checkbox" name="recEquiProve" id="recEquiProve"></td>
+			<td><input type="checkbox" name="venCli" id="venCli"></td>
+			<td><input type="checkbox" name="venPro" id="venPro"></td>
+			<td><input type="number" name="codAux" id="codAux" class="form-control"></td>
+			<td><input type="checkbox" name="docFac" id="docFac"></td>
+			<td><input type="checkbox" name="denom" id="denom"></td>
+			<td><input type="checkbox" name="venCli" id="venCli"></td>
+		</tr>	
 			
 		
 	</tbody>
 </table>
+
+<!-- Borrar de aqui acia abajo -->
+ARITZ NO HE BORRADO EL CODIGO PARA RELLENAR LOS CAMPOS 
+
 <div class="col-lg-6">
 	<!--  <form
 		action="< %=request.getContextPath() + "/"
@@ -337,6 +367,8 @@
 
 	</form>
  -->
+ 
+ <!--  BORRAR HASTA AQUI -->
 </div>
 
 
