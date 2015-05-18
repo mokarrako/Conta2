@@ -41,16 +41,16 @@
 			                        		<a href="Inven.html">Inventarios<span class="fa arrow"></span></a>
 			                        		<ul class="nav nav-third-level">
 					                            <li>
-				                            		<a href="flot.html">Mantenimiento de inventario</a>
+				                            		<a href="inventMantenimiento.jsp">Mantenimiento de inventario</a>
 				                                </li>
 				                                <li>
-				                            		<a href="flot.html">Listado de inventario</a>
+				                            		<a href="inventLista.jsp">Listado de inventario</a>
 				                                </li>
 				                                <li>
-				                            		<a href="flot.html">Copiar inventario de otra empresa</a>
+				                            		<a href="inventCopiar.jsp">Copiar inventario de otra empresa</a>
 				                                </li>
 				                                <li>
-				                            		<a href="flot.html">Actualizar inventario para asiento de amortización</a>
+				                            		<a href="inventActualizar.jsp">Actualizar inventario para asiento de amortización</a>
 				                                </li>
 				                            </ul>
 			                            </li>
@@ -61,7 +61,7 @@
 		                            <a href="#"><i class="glyphicon glyphicon-list"></i> Diario<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
-		                            		<a href="flot.html">Asientos</a>
+		                            		<a href="diarioAsientos.jsp">Asientos</a>
 		                                </li>
 		                                <li>
 		                            		<a href="flot.html">Asientos cobro/pago</a>
@@ -180,7 +180,7 @@
 			                           		<a href="flot.html">Configuracion de impresora</a>
 			                            </li>
 			                            <li>
-			                           		<a href="flot.html">Calculadora</a>
+			                           		<a href="#">Calculadora</a>
 			                            </li>
 			                            <li>
 			                           		<a href="flot.html">Copia de seguridad</a>
