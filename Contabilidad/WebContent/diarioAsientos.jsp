@@ -20,8 +20,8 @@
 	<label>Suma haber <input type="text" name="sumaHaber" class="form-control"></label>
 	<label>Descuadre <input type="text" name="tipoAsiento" class="form-control"></label>
 </div>
-
-<table id="diarioAsiento" class="table table-bordered table-hover data"
+<form>
+	<table id="diarioAsiento" class="table table-bordered table-hover data"
 			width="100%" cellspacing="0">
 			<thead>
 				<tr>
@@ -56,6 +56,6 @@
 		<input type="submit" value="añadir" class="form-control">
 		<input type="submit" value="eliminar" class="form-control">
 		<input type="submit" value="historico cuenta" class="form-control">
-
+</form>
 
 <%@include file="includes/footer.jsp"%>
