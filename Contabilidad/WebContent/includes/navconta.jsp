@@ -64,10 +64,10 @@
 		                            		<a href="diarioAsientos.jsp">Asientos</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Asientos cobro/pago</a>
+		                            		<a href="diarioAsientosCoPa.jsp">Asientos cobro/pago</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Listar diario por numero de asinto</a>
+		                            		<a href="diarioListaNumAsiento.jsp">Listar diario por numero de asiento</a>
 		                                </li>
 		                                <li>
 		                            		<a href="flot.html">Listar diario por tipo de asiento</a>
