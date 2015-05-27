@@ -70,13 +70,13 @@
 		                            		<a href="diarioListaNumAsiento.jsp">Listar diario por numero de asiento</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Listar diario por tipo de asiento</a>
+		                            		<a href="diarioListaTipAsiento.jsp">Listar diario por tipo de asiento</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Visualizacion de asientos</a>
+		                            		<a href="diarioVisualizaAsientos.jsp">Visualizacion de asientos</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Listar cuentas segun diario</a>
+		                            		<a href="diarioListaCuentaSegunDiario.jsp">Listar cuentas segun diario</a>
 		                                </li>
 			                            <!-- /.nav-second-level -->
 			                         </ul>
@@ -85,22 +85,22 @@
 		                            <a href="#"><i class="glyphicon glyphicon-th-list"></i> Mayor<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
-		                            		<a href="flot.html">Listado de mayor</a>
+		                            		<a href="mayorListaMayor.jsp">Listado de mayor</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Saldos por meses</a>
+		                            		<a href="mayorListaSaldoMes.jsp">Saldos por meses</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Balance de sumas y saldos</a>
+		                            		<a href="mayorBalanceSumasSaldos.jsp">Balance de sumas y saldos</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Balance de situacion</a>
+		                            		<a href="mayorBalanceSituacionNPGC.jsp">Balance de situacion</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Cuentas de perdidas y ganancias</a>
+		                            		<a href="mayorPerdGana.jsp">Cuentas de perdidas y ganancias</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Movimientos mensuales</a>
+		                            		<a href="mayorMovMensuales.jsp">Movimientos mensuales</a>
 		                                </li>
 			                            <!-- /.nav-second-level -->
 			                         </ul>
@@ -109,19 +109,19 @@
 		                            <a href="#"><i class="glyphicon glyphicon-star"></i> Tratamientos<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
-		                            		<a href="flot.html">Previsiones de cobros y pagos</a>
+		                            		<a href="tratamPrevCoPa.jsp">Previsiones de cobros y pagos</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Existencias</a>
+		                            		<a href="tratamExistencias.jsp">Existencias</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Facturas emitidas</a>
+		                            		<a href="tratamFactEmi.jsp">Facturas emitidas</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Facturas recividas</a>
+		                            		<a href="tratamFactReci.jsp">Facturas recibidas</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Liquidacion de IVA</a>
+		                            		<a href="tratamLiqIVA.jsp">Liquidacion de IVA</a>
 		                                </li>     
 			                            <!-- /.nav-second-level -->
 			                         </ul>
