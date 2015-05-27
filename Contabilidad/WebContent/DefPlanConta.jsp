@@ -1,4 +1,4 @@
-<%@page import="Contabilidad.Bean.ActivarEmpresa"%>
+<%@page import="Contabilidad.Bean.Cuenta"%>
 <%@page import="Contabilidad.Constantes.Constantes"%>
 <%@page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
@@ -12,7 +12,7 @@
 </jsp:include>
 
 <form>
-		<div class="col-lg-3">
+		<div class="col-lg-2">
 			<div class="panel panel-default">
 						<div class="panel-heading">
 							Visualizar
@@ -28,7 +28,7 @@
 			<input type="button" name="eliminarcuenta" value="Eliminar" class="btn-danger btn btn-outline" id="eliminarcuenta" href="#">
 		</div>
 		
-		<div class="col-lg-6">	
+		<div class="col-lg-7">	
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						Listados
@@ -43,12 +43,12 @@
 						<div class="col-lg-4">
 							<input type="checkbox" name="incsaldo" value="incsaldo" id="incsaldo"><label for="incsaldo"> Incluir saldos</label><br>
 							<input type="checkbox" name="consaldo" value="consaldo" id="consaldo"><label for="consaldo"> Solo cuentas con saldo</label><br>
-							<label for="nivel">Nivel: </label><input type="text" name="nivel" id="nivel" class="form-control">
+							<label for="nivelin">Nivel: </label><input type="text" name="nivelin" id="nivelin" class="form-control">
 						</div>
 						<div class="col-lg-4">
 							<input type="radio" name="ordenlist" value="xcuenta" id="xcuenta"><label for="xcuenta"> Por cuenta</label><br>
 							<input type="radio" name="ordenlist" value="xalfabe" id="xalfabe"><label for="xalfabe"> Por orden alfabético</label>
-							<input type="submit" value="Listar" onclick="msg()" class="btn btn-outline btn-primary botonbajodos"> 
+							<input type="submit" value="Listar" onclick="msg()" class="btn btn-outline btn-primary botonbajo"> 
 						</div>
 											
 					</div>						
@@ -61,33 +61,46 @@
 						</div>
 				<div class="panel-body">
 					<div class="col-lg-14">
-						<label for="scuenta"> Por cuenta</label><input type="text" name="scuenta" id="scuenta" class="form-control"><br>
-						<label for="descr"> Por descripción</label><input type="text" name="descr" id="descr" class="form-control">
+						<label for="scuenta"> Por cuenta</label><input type="text" name="scuenta" id="scuenta" class="form-control cincuenta"><br>
+						<label for="descr"> Por descripción</label><input type="text" name="descr" id="descr" class="form-control cincuenta">
 						<input type="submit" value="Buscar" onclick="msg()" class="btn btn-outline btn-primary">
 					</div>
 				</div>
 			</div>
 		</div>
 		
-		<table class="total">
-		  <thead>
-			  <tr class="oscurodos">
-			    <th class="col-lg-2"><label for="cuenta">Cuenta</label></th>
-			    <th class="col-lg-8"><label for="descr">Descripción</label></th>
-			    <th class="col-lg-2"><label for="saldo">Saldo</label></th>
-			  </tr>
-		  </thead>
-		  <tbody>
-			  <tr>
-			    <td class="col-lg-2"><input type="text" name="cuenta" id="cuenta" readonly value="" class="form-control"></td>
-				<td class="col-lg-8"><input type="text" id="descr" name="descr" value="" class="form-control"></td>
-				<td class="col-lg-2"><input type="text" id="saldo" name="saldo" value="" class="form-control"></td>
-			  </tr>
-		 
-		  
-		  </tbody>
-		  
+		<table id="idEmpresa" class="table table-bordered table-hover data"
+			width="100%" cellspacing="0">
+			<thead>
+				<tr>
+					<th></th>
+
+					<th>Cuenta</th>
+					<th>Descripcion</th>
+					<th>Saldo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						
+					</td>
+					<td>
+						<a href="#">Numero cuenta</a>
+					</td>
+					<td>
+						<a href="#">Descripcion Cuenta</a>
+					</td>
+					<td>
+						<a href="#">Saldo cuenta</a>
+					</td>
+					
+				</tr>
+				
+			</tbody>
 		</table>
+		
+		
 </form>
 
 <%@include file="includes/footer.jsp"%>
