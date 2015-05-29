@@ -47,5 +47,7 @@ public class Constantes {
 	
 	public static final String ATT_CONCEPTOSCONTABLES = "conceptoscontables";
 	public static final String ATT_CONCEPTOS = "conceptos";
-	
+
+	public static final String ATT_ASIENTOSAUTOMATICOS = "asientosautomaticos";
+	public static final String ATT_ASIENTOS = "asientos";
 }
