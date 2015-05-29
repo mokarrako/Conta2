@@ -38,9 +38,9 @@ public class ConceptosContablesServlet extends HttpServlet {
 				ArrayList<ConceptosContables> ConceptosContables = daoConcepCont
 						.getAll();
 
-				request.setAttribute(Constantes.ATT_EMPRESAS, ConceptosContables);
+				request.setAttribute(Constantes.ATT_CONCEPTOSCONTABLES, ConceptosContables);
 				// forward a jsp de busqueda
-				request.getRequestDispatcher(Constantes.JSP_ACTEMP).forward(
+				request.getRequestDispatcher(Constantes.JSP_CONCEPTOSFORM).forward(
 						request, response);
 
 			} else {
