@@ -130,25 +130,25 @@
 		                            <a href="#"><i class="glyphicon glyphicon-font"></i> Actividades<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
-		                            		<a href="flot.html">Recalcular saldos</a>
+		                            		<a href="activRecalSaldos.jsp">Recalcular saldos</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Regenerar numero de asientos</a>
+		                            		<a href="activRegenNumAsientos.jsp">Regenerar numero de asientos</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Comprobar cuadre del diario</a>
+		                            		<a href="activCompCuadreDiario.jsp">Comprobar cuadre del diario</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Cambiar digitos de cuentas</a>
+		                            		<a href="activCambDigiCuentas.jsp">Cambiar digitos de cuentas</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Organizar numero de factura por fechas</a>
+		                            		<a href="activOrgFactFecha.jsp">Organizar numero de factura por fechas</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Actividades de cierre</a>
+		                            		<a href="activCierreEjer.jsp">Actividades de cierre</a>
 		                                </li>
 		                                <li>
-		                            		<a href="flot.html">Nueva empresa</a>
+		                            		<a href="activNuevaEmpresa.jsp">Nueva empresa</a>
 		                                </li>      
 			                            <!-- /.nav-second-level -->
 			                         </ul>
@@ -157,22 +157,22 @@
 		                            <a href="#"><i class="glyphicon glyphicon-wrench"></i> Herramientas<span class="fa arrow"></span></a>
 		                          	<ul class="nav nav-second-level">
 			                            <li>
-			                           		<a href="flot.html">Ordenacion de ficheros por empresa</a>
+			                           		<a href="herramOrdenFicheros.jsp">Ordenacion de ficheros por empresa</a>
 			                            </li>
 			                            <li>
-			                           		<a href="flot.html">Comprobar digitos de contabilidad</a>
+			                           		<a href="herramCompDigiConta.jsp">Comprobar digitos de contabilidad</a>
 			                            </li>
 			                            <li>
-			                           		<a href="flot.html">Borrar contabilidad</a>
+			                           		<a href="herramBorraConta.jsp">Borrar contabilidad</a>
 			                            </li>
 			                            <li>
 			                           		<a href="flot.html">Mantenimientos<span class="fa arrow"></span></a>
 			                        		<ul class="nav nav-third-level">
 					                            <li>
-				                            		<a href="flot.html">Mantenimiento de parámetros para infórme balance de situación</a>
+				                            		<a href="herramMantParamBalanSituLista.jsp">Mantenimiento de parámetros para infórme balance de situación</a>
 				                                </li>
 				                                <li>
-				                            		<a href="flot.html">Mantenimiento de parámetros para informe de pérdidas y ganacias</a>
+				                            		<a href="herramMantParamBalanPerGanLista.jsp">Mantenimiento de parámetros para informe de pérdidas y ganacias</a>
 				                                </li>
 				                            </ul>
 			                            </li>
@@ -183,10 +183,10 @@
 			                           		<a href="#">Calculadora</a>
 			                            </li>
 			                            <li>
-			                           		<a href="flot.html">Copia de seguridad</a>
+			                           		<a href="herramCopiaSeg.jsp">Copia de seguridad</a>
 			                            </li>
 			                            <li>
-			                           		<a href="flot.html">Modificar tablas y otras herramientas</a>
+			                           		<a href="herramModifTablas.jsp">Modificar tablas y otras herramientas</a>
 			                            </li>
 			                            <!-- /.nav-second-level -->
 			                         </ul>
