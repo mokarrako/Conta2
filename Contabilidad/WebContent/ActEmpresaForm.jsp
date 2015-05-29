@@ -17,8 +17,7 @@
 
 <%
 	//recoger atributo empresa
-	ActivarEmpresa e = (ActivarEmpresa) request
-			.getAttribute(Constantes.ATT_EMPRESA);
+	ActivarEmpresa e = (ActivarEmpresa) request.getAttribute(Constantes.ATT_EMPRESA);
 
 	//inicializar variables para el formulario
 

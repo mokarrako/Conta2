@@ -46,8 +46,7 @@
 					+ Constantes.CONTROLLER_CONCEPCONTAB %>"
 		method="post"> 
 		
-		<table class="table table-bordered table-hover data"
-			width="100%" cellspacing="0">
+		<table id="actempresa" class="table table-bordered table-hover data display" width="100%" cellspacing="0">
 			<thead>
 				<tr>
 					<th>
